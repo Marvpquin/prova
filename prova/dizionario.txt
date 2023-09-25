@@ -1,0 +1,30 @@
+leggere
+stampare
+per
+endto
+In
+Fino a
+Fare
+Se
+altrimenti
+finisci se
+=
+Totale
+testo
+vero
+logico
+È
+O
+NO
+ritorno
+>
+<
+>=
+<=
+==
+!=
+(
+)
+{
+}
+;

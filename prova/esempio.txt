@@ -1,0 +1,18 @@
+intero x;
+int y;
+intero i;
+intero a;
+leggi x;
+y = x*2;
+per i da 1 a 10 coltelli
+   se y > 10 allora
+     print "superato 10";
+   finisci se
+endto
+se a > 5 allora
+   stampa un;
+finisci se
+se a = 3 allora
+   stampa un;
+finisci se
+restituire 0;

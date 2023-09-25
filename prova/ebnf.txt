@@ -1,0 +1,31 @@
+NOTAZIONE EBNF
+<carattere> = {a..z}*
+-------------------------------
+Dichiarazioni di digitazione
+<carattere> := a..z
+<var> := <car>0..9
+<tipo> := d | f | s | w
+<op.arit> := + | - | *| /
+<numero> := 0..9
+<varnum> := <var> | <numero>
+intero <var>;
+int <var>;
+leggi <var>;
+<var> = <varnum> <op.arit> <varnum>;
+stampa <var>;
+per <var> da <num> a <num> quindi
+endto
+se <var> <op.rel> <num> allora
+finisci se
+---------------
+intero x;
+int y;
+intero i;
+scanf("%d", &x):
+y = x*2;
+per (i=0;i<y;i++){
+   se (i>10){
+     printf("%d ha superato 10", i);
+   }
+}
+restituire 0;
